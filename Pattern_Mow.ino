@@ -1,4 +1,3 @@
-
 void Pattern_Mow_Spirals() {
       //analogWrite(ENAPin, PWM_MaxSpeed_RH - (100 - Loop_Cycle_Mowing));             // 255 - 200 = 55 up to 255 again.  (255 is max speed). Speed is set in the settings                        
       
@@ -323,8 +322,6 @@ void Pattern_Mow_Parallel() {
     if (Leg > 2) Leg = 1;             // Keeps the leg variable to 1 or 2
      
     }
-
-  
 }
 
 
@@ -345,5 +342,3 @@ void Pattern_Mow_Wire() {
   // Follow the wire in the other direction at the new signal strength etc... etc...
   
 }
-
-    

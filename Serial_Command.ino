@@ -284,9 +284,6 @@ if (Command == 57) { F_EN[32] = false; } // letter 9 x
 }
 
 
-
-
-
 void Check_Mower_Status() {
       Serial.println("");
       Serial.print(F("Mower Status:  "));

@@ -1,9 +1,4 @@
 //https://www.benripley.com/diy/arduino/three-ways-to-read-a-pwm-signal-with-arduino/
-
-
-
-
-
 void Check_PIXHAWK_PWM() {
 
   Pixhawk_Motor_Test_Initiate = 1;

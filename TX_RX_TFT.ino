@@ -1,4 +1,4 @@
- // Listens to the serial 3 port if a menu command has been executed.
+// Listens to the serial 3 port if a menu command has been executed.
 void Check_TFT_Serial_Input() {
 	byte recvBuff [3] = {0};
 

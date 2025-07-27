@@ -125,5 +125,5 @@ if (Command == 113) {                   // letter q
       Mower_Docked = 1;
       Mower_PIXHAWK = 0;
       }
-
+      
 }

@@ -204,11 +204,11 @@ void Setup_Membrane_Buttons() {
   }
 
 
-void Setup_Microswitches() {
-  Serial.println(F("Setup Microswitches"));
-  pinMode(Microswitch_1, INPUT_PULLUP); 
-  pinMode(Microswitch_2, INPUT_PULLUP); 
-}
+//void Setup_Microswitches() {
+//  Serial.println(F("Setup Microswitches"));
+//  pinMode(Microswitch_1, INPUT_PULLUP); 
+//  pinMode(Microswitch_2, INPUT_PULLUP); 
+//}
 
 void Setup_ADCMan() {
   Serial.println(F("Setting up ADCMAN"));

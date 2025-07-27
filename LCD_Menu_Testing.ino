@@ -1,6 +1,4 @@
 // BUTTONS TEST MENU
-
-
 #if defined(LCD_KEYPAD)
 
 // Test to displyed on the LCD screen when using the membrane key menus

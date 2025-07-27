@@ -1,4 +1,3 @@
-
 // Check the mower is inside (0) or outside (1) the perimeter wire
 void Check_Wire_In_Out() {
 

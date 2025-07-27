@@ -1,5 +1,3 @@
-
-
 void Set_Mode_PIXHAWK() {
   Mower_PIXHAWK = 1;
 }
@@ -454,6 +452,4 @@ void Guided_Mode() {
   uint16_t len = mavlink_msg_to_send_buffer(buf, &msg);
   
   Pixhawk_Serial.write(buf,len);
-
-  
   }

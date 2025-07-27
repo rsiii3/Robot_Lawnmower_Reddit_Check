@@ -146,7 +146,7 @@ void Receive_Data_From_TFT()  {
       Receive_7_Data_Sets_Serial3();
       Perimeter_Wire_Enabled  = Data1;
       WIFI_Enabled            = Data2;
-      Bumper_Activate_Frnt    = Data3;
+//      Bumper_Activate_Frnt    = Data3;
       Data4 = 0;
       Data5 = 0;
       Data6 = 0;
@@ -1527,10 +1527,4 @@ void Receive_Data_From_TFT()  {
     }
 
 
-}
-
-
-
-  
-
-  
+}  

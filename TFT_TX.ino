@@ -1,4 +1,3 @@
-
 // Transmits 7 Data Values to the TFT MEGA on Serial3 Com Port.
 // The data values are declared below for the different Menu
 // Commands.  This standardises the data transfer method for all
@@ -975,51 +974,51 @@ void Send_Data_To_TFT() {
 
 
 
-//// Start Bumper Test
-//  if (TFT_Menu_Command == 50) {
-//    Serial.println(F("Bumper Bar Test"));
-//    
+// Start Bumper Test
+  if (TFT_Menu_Command == 50) {
+    Serial.println(F("Bumper Bar Test"));
+    
 //    Setup_Microswitches();
-//    
-//    bool Test_Complete = 0;
-//    bool Bump_LH;
-//    bool Bump_RH;
-//
-//      for (int i = 0; i <= 30; i++) {
-//
-//        if (i > 28) Test_Complete = 1;
-//        
+    
+    bool Test_Complete = 0;
+    bool Bump_LH;
+    bool Bump_RH;
+
+      for (int i = 0; i <= 30; i++) {
+
+        if (i > 28) Test_Complete = 1;
+        
 //        if (digitalRead(Microswitch_2))  Bump_LH = 0; 
 //        if (!digitalRead(Microswitch_2)) Bump_LH = 1;
 //        if (digitalRead(Microswitch_1))  Bump_RH = 0; 
 //        if (!digitalRead(Microswitch_1)) Bump_RH = 1;
-//        delay(200);
-//
-// 
-//        Serial3.print(Bump_LH);
-//        Serial3.println("\a");
-//        delay(100);  
-//    
-//        Serial3.print(Bump_RH);
-//        Serial3.println("\b");
-//        delay(100); 
-//        
-//        Serial3.print(Test_Complete);
-//        Serial3.println("\c");
-//        delay(300);    
-//
-//        Serial.print("Bump LH: ");
-//        Serial.print(Bump_LH);
-//        Serial.print("  Bump RH: ");
-//        Serial.println(Bump_RH);
-//      }
-//
-//    Serial.print(F("Volt Bumper Test Complete"));
-//    Serial.println(Test_Complete);
-//    }
-//
-//
-//}
+        delay(200);
+
+ 
+        Serial3.print(Bump_LH);
+        Serial3.println("\a");
+        delay(100);  
+    
+        Serial3.print(Bump_RH);
+        Serial3.println("\b");
+        delay(100); 
+        
+        Serial3.print(Test_Complete);
+        Serial3.println("\c");
+        delay(300);    
+
+        Serial.print("Bump LH: ");
+        Serial.print(Bump_LH);
+        Serial.print("  Bump RH: ");
+        Serial.println(Bump_RH);
+      }
+
+    Serial.print(F("Volt Bumper Test Complete"));
+    Serial.println(Test_Complete);
+    }
+
+
+}
 
 
 

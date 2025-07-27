@@ -146,7 +146,4 @@ int PingSonarX(int trigPinX, int echoPinX, int distanceX, long durationX, int so
 
   return distanceX;
   return sonarX;
-
-
-
 }

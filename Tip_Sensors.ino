@@ -1,6 +1,3 @@
-
-
-
 void Check_Tilt_Tip_Angle() {
 
   // CAREFUL Tilt_Angle_Sensed = 0 = ON   1 = OFF

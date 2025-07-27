@@ -305,5 +305,3 @@ void Print_LCD_Stop_Btn() {
     lcd.print("STOP pressed");
     #endif
     }
-    
-   

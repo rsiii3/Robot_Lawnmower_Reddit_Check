@@ -1,4 +1,3 @@
-
 /* Perimieter Wire Collision Motion
   ************************************************************************************/
   void Test_Mower_Check_Wire()  {
@@ -509,5 +508,4 @@ void Test_Compass_Turn_Function() {
     Motor_Action_Go_Full_Speed();
     delay(2000); 
     Turn_Off_Relay();
-    }
-  
+    }  

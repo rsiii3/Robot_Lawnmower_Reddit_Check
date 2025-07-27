@@ -6,21 +6,10 @@
 signed long resultCTime;  // result of loop cycle time
 signed long startCTime;   // variable where time of measuring start is stored
 
-
-
-
-// function for measuring of loop cycle time, for usage just call it
-void RuntimeMeasuring() {
-	resultCTime = (signed long)millis() - startCTime;
-	Serial.print(F("|CT:")); Serial.print(resultCTime); Serial.print(F("|"));
-	startCTime = (signed long)millis();
-}
-
-
 // Function Timer with delay on, auto reset when condition are met
 // usage: if (TimerDelayOn(T10, 10000)) Print_Time_TFT(); -> this will call function Print_Time_TFT() each 10s
 bool TimerDelayOn(struct timerVar_t &T, int T_PRE)//, int T_PRE)
-{
+  {
 	bool ret = false;
 
 	if (!T.flagRun) {
@@ -60,6 +49,13 @@ bool TimerDelayOnRet(struct timerVar_t &T)//, int T_PRE)
 	return ret;
 }
 
+// function for measuring of loop cycle time, for usage just call it
+void RuntimeMeasuring()
+{
+  resultCTime = (signed long)millis() - startCTime;
+  Serial.print(F("|CT:")); Serial.print(resultCTime); Serial.print(F("|"));
+  startCTime = (signed long)millis();
+}
 
 
 void TimerReset(struct timerVar_t &T)

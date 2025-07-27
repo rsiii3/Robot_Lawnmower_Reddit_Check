@@ -211,5 +211,4 @@ void Specials_Find_Wire_Track()  {
       Loop_Cycle_Mowing = 0;
       if (Manual_Mode == 0) Get_WIFI_Commands();  
       delay(5);
-    }
-  
+    }  
